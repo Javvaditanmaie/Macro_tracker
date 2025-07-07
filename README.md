@@ -89,4 +89,14 @@ Endpoint:
 GET http://localhost:5000/api/dashboard?date=2025-07-06
 
 ![Screenshot 2025-07-06 160700](https://github.com/user-attachments/assets/c5686aa6-2368-404b-8d3f-300ff0136287)
-
+### 10 Open AI API(gemini API)
+POST http://localhost:5000/api/suggest-meal
+Body
+<pre>
+  {
+  "remainingProtein": 30,
+  "remainingCarbs": 50,
+  "remainingFat": 20
+}
+</pre>
+![image](https://github.com/user-attachments/assets/f84275f2-b482-4b39-885a-bbce91faf5f4)
