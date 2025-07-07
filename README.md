@@ -1,6 +1,6 @@
-#### End-to-End Backend Plan: Macro Tracker 
+### End-to-End Backend Plan: Macro Tracker 
 
-### 1. REGISTER
+#### 1. REGISTER
 ## Endpoint:
 POST http://localhost:5000/api/auth/register
 <pre>{
